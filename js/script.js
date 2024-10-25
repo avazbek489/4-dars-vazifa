@@ -44,6 +44,7 @@
 // console.log(fibonaci(10));
 
 // // // Class ga oid.
+// // 1-SAVOL JAVOBI
 // class Car {
 //   constructor(name, color, model, year) {
 //     this.name = name;
