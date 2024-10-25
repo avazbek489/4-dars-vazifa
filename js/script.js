@@ -55,3 +55,117 @@
 // }
 // let user = new Car("Pagani", "black", "Zonda", 2024);
 // console.log(user);
+
+// // 2-SAVOL JAVOBI
+// class Rectangle {
+//   constructor(length, width) {
+//     this.length = length;
+//     this.width = width;
+//   }
+//   S() {
+//     return this.length * this.width;
+//   }
+// }
+// let sum = new Rectangle(3, 2);
+// console.log(sum.S());
+// // // // String metodlariga oid.
+// // // ### 1. `charAt`
+// // 1-SAVOL JAVOBI
+// function charAtIndex(str, i) {
+//   return i < 0 || i >= str.length ? "" : str.charAt(i);
+// }
+// console.log(charAtIndex("Hello ! world", 11));
+
+// // 2-SAVOL JAVOBI
+// function lastCharAtIndex(str) {
+//   return str.charAt(str.length - 1);
+// }
+// console.log(lastCharAtIndex("Hello JS"));
+// // 3-SAVOL JAVOBI
+// function insStr(str) {
+//   for (let i = 0; i < str.length; i++) {
+//     console.log(str.charAt(i));
+//   }
+// }
+// insStr("HELO🔥");
+// // // ### 2. `charCodeAt`
+// // 1-SAVOL JAVOBI
+// function unicodeCharAt(str, i) {
+//   return str.charCodeAt(i);
+// }
+// console.log(unicodeCharAt("Salom", 3));
+
+// // 2-SAVOL JAVOBI
+// function unicodeValue(str) {
+//   let res = [];
+//   for (let i = 0; i < str.length; i++) {
+//     res.push(str.charCodeAt(i));
+//   }
+//   return res;
+// }
+// console.log(unicodeValue("Salom"));
+// // 3-SAVOL JAVOBI
+// function unicodeStringthreeIndex(str, ind) {
+//   for (let i = ind + 1; i <= ind + 3; i++) {
+//     if (i < str.length) {
+//       console.log(str.charCodeAt(i));
+//     }
+//   }
+// }
+// unicodeStringthreeIndex("Salom", 1);
+// // // ### 3. `at`
+// // 1-SAVOL JAVOBI
+// function atIndex(str, i) {
+//   return str.at(i);
+// }
+// console.log(atIndex("Hello", 2));
+// // 2-SAVOL JAVOBI
+// function lastAtIndex(str) {
+//   return str.at(-1);
+// }
+// console.log(lastAtIndex("Lorem"));
+// // 3-SAVOL JAVOBI
+// function endIndexAt(str, i) {
+//   return str.at(-i);
+// }
+// console.log(endIndexAt("Lorem", 2));
+
+// // // ### 4. `slice`
+// // 1-SAVOL JAVOBI
+// function sliceMedium(str) {
+//   let staRes = Math.floor(str.length / 4);
+//   let endRes = Math.ceil((str.length * 3) / 4);
+//   return str.slice(staRes, endRes);
+// }
+// console.log(sliceMedium("JavaScriptda"));
+
+// // 2-SAVOL JAVOBI
+// function strSlice(str) {
+//   return str.slice(0,3);
+// }
+// console.log(strSlice("Hello"));
+// Domla aynan shu misolni bilmay turgan edim 0,3 ni keyin chgpt dan qande ishlaydi deb soradim kodni ozim yozganman.
+// // 3-SAVOL JAVOBI
+// function strSlice(str) {
+//   return str.slice(-5);
+// }
+// console.log(strSlice("Hello"));
+
+// // // ### 5. `substring`
+// // 1-SAVOL JAVOBI
+// function subString(str, startIndex, endIndex) {
+//   return str.substring(startIndex, endIndex);
+// }
+// console.log(subString("Hello ! JS", 0,5));
+
+// // 2-SAVOL JAVOBI
+// function first4SubString(str) {
+//   return str.substring(0, 4);
+// }
+// console.log(first4SubString("JavaScript"));
+
+// // 3-SAVOL JAVOBI
+// function first5SubString(str) {
+//   return str.substring(4);
+// }
+// console.log(first5SubString("JavaScript"));
