@@ -169,3 +169,27 @@
 //   return str.substring(4);
 // }
 // console.log(first5SubString("JavaScript"));
+
+// // // ### 6. `substr`
+// // 1-SAVOL JAVOBI
+// let str = "Najot ta'lim";
+// console.log(str.substr(4, 3));
+// // 2-SAVOL JAVOBI
+// let str = "Najot talim";
+// let res = Math.floor(str.length / 2);
+// console.log(str.substr(res, 6));
+
+// // 3-SAVOL JAVOBI
+// let str = "Najot talim";
+// console.log(str.substr(-4));
+
+// // // ### 7. `trim`, `trimStart`, `trimEnd`
+// // 1-SAVOL JAVOBI
+// let input = prompt("Sozni kiriting:");
+// console.log(input.trim());
+// // 2-SAVOL JAVOBI
+// let input = prompt("Sozni kiriting:");
+// console.log(input.trimStart());
+// // 3-SAVOL JAVOBI
+// let input = prompt("Sozni kiriting:");
+// console.log(input.trimEnd());
