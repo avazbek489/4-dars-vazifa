@@ -193,3 +193,37 @@
 // // 3-SAVOL JAVOBI
 // let input = prompt("Sozni kiriting:");
 // console.log(input.trimEnd());
+
+// // // ### 8. `padEnd`, `padStart`
+// // 1-SAVOL JAVOBI
+// let str = "Hello";
+// console.log(str.padEnd(10, "!"));
+// // 2-SAVOL JAVOBI
+// let str = "Java";
+// console.log(str.padStart(15, "$"));
+// // 3-SAVOL JAVOBI
+// let num = "12345";
+// console.log(num.padStart(8, "0"));
+
+// // // ### 9. `repeat`
+// // 1-SAVOL JAVOBI
+// function repeat(str) {
+//   return str.repeat(3);
+// }
+// console.log(repeat("Hello"));
+// // 2-SAVOL JAVOBI
+// function repeatString(str) {
+//   let res = "";
+//   for (let i = 0; i < str.length; i++) {
+//     res += str[i].repeat(2);
+//   }
+//   return res;
+// }
+// console.log(repeatString("Hello"));
+
+// // 3-SAVOL JAVOBI
+// function repeat(str) {
+//   return str + ",".repeat(4) + str;
+// }
+
+// console.log(repeat("Hello"));
