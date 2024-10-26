@@ -227,3 +227,46 @@
 // }
 
 // console.log(repeat("Hello"));
+
+// // // ### 10. `replace`
+// // 1-SAVOL JAVOBI
+// let str = "Najot Ta'limda";
+// let res = str.replace("da", "");
+// console.log(res);
+// // 2-SAVOL JAVOBI
+// let str = "Salom hammaga";
+// console.log(str.replace("Salom", "Xayr"));
+// // 3-SAVOL JAVOBI
+// let str = "Meni yoshim 016da";
+// console.log(str.replace(/\d/, "*"));
+
+// // // ### 11. `replaceAll`
+// // 1-SAVOL JAVOBI
+// let str = "Frontend reactJS";
+// console.log(str.replaceAll("a", "o"));
+// // 2-SAVOL JAVOBI
+// let str = "Lorem ipsum Lorem ipsum Lorem ipsum";
+// console.log(str.replaceAll("Lorem ipsum", "dolor etin"));
+// // 3-SAVOL JAVOBI
+// let str = "Hozir 2024-yil 2024-yil tugashiga ozgina qoldi";
+// console.log(str.replaceAll(/\d/g, "*"));
+// // // ### 12. `split`
+// // 1-SAVOL JAVOBI
+// let str = "Najot, ta'lim";
+// console.log(str.split(", "));
+// // 2-SAVOL JAVOBI
+// let str = "Frontend";
+// console.log(str.split(""));
+// // 3-SAVOL JAVOBI
+// let str = "Frontend";
+// console.log(str.split(" "));
+// // // ### 13. `indexOf`
+// // 1-SAVOL JAVOBI
+// let str = "Najot talim";
+// console.log(str.indexOf("talim"));
+// // 2-SAVOL JAVOBI
+// let str = "Welcome to Dubai";
+// console.log(str.indexOf(" tow"));
+// // 3-SAVOL JAVOBI
+// let str = "Hello";
+// console.log(str.indexOf("ll"));
