@@ -270,3 +270,21 @@
 // // 3-SAVOL JAVOBI
 // let str = "Hello";
 // console.log(str.indexOf("ll"));
+// // // ### 14. `lastIndexOf`
+// // 1-SAVOL JAVOBI
+// let str = "Hello Uzbekistan";
+// console.log(str.lastIndexOf("a"));
+// // 2-SAVOL JAVOBI
+// let str = "F r o n t e n d ";
+// console.log(str.lastIndexOf(" "));
+// // 3-SAVOL JAVOBI
+// let str = "salom 123 dunyo 456";
+// console.log(str.lastIndexOf(/\d/g));
+// // // ### 15. `includes`
+// // 1-SAVOL JAVOBI
+// let str = "Najot talim";
+// console.log(str.includes("oqish"));
+// // 2-SAVOL JAVOBI
+// let str = prompt("Kiriting");
+// console.log(str.includes(Number));
+// // 3-SAVOL JAVOBI
